@@ -64,9 +64,8 @@ Threshold sabit 0.50 değil, bir iş kararı olarak ele alınıyor: notebook, e�
 ```
 explainable-credit-risk/
 ├── kredi_risk_skorlama.ipynb   # Markdown anlatılı tam boru hattı
-├── assets/
-│   ├── pipeline.png
-│   └── model_comparison.png
+├──  pipeline.png
+├── model_comparison.png
 ├── README.md
 └── README.tr.md
 ```
