@@ -4,7 +4,7 @@ A credit default risk model that predicts whether an applicant will experience s
 
 Turkish: [README.tr.md](README.tr.md)
 
-![Pipeline](assets/pipeline.png)
+![Pipeline](pipeline.png)
 
 ## Why this repo exists
 
@@ -30,7 +30,7 @@ Information Value is the classic credit-scoring measure of a feature's predictiv
 
 An interpretable Logistic Regression baseline (`class_weight="balanced"`) is compared against XGBoost (`scale_pos_weight` for the ~14:1 imbalance). XGBoost wins, but cleaning narrowed the gap — a reminder that data quality can matter more than model complexity.
 
-![Model comparison](assets/model_comparison.png)
+![Model comparison](model_comparison.png)
 
 | Model | AUC | Gini | KS | PR-AUC |
 |-------|-----|------|----|--------|
