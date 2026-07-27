@@ -64,9 +64,8 @@ Threshold is treated as a business decision, not a fixed 0.50: the notebook show
 ```
 explainable-credit-risk/
 ├── kredi_risk_skorlama.ipynb   # Full pipeline with markdown narration
-├── assets/
-│   ├── pipeline.png
-│   └── model_comparison.png
+├── pipeline.png
+├── model_comparison.png
 ├── README.md
 └── README.tr.md
 ```
