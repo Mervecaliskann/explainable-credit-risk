@@ -4,7 +4,7 @@ Bir başvuranın 2 yıl içinde ciddi ödeme sıkıntısına düşme olasılığ
 
 English: [README.md](README.md)
 
-![Pipeline](assets/pipeline.png)
+![Pipeline](pipeline.png)
 
 ## Bu repo neden var
 
@@ -30,7 +30,7 @@ Information Value, bir özelliğin tahmin gücünü ölçen klasik kredi skorlam
 
 Açıklanabilir bir Logistic Regression baseline (`class_weight="balanced"`), XGBoost (~14:1 dengesizlik için `scale_pos_weight`) ile karşılaştırılıyor. XGBoost kazanıyor ama temizlik aradaki farkı daralttı — veri kalitesinin bazen model karmaşıklığından daha önemli olduğunun hatırlatması.
 
-![Model karşılaştırması](assets/model_comparison.png)
+![Model karşılaştırması](model_comparison.png)
 
 | Model | AUC | Gini | KS | PR-AUC |
 |-------|-----|------|----|--------|
